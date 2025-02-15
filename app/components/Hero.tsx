@@ -47,10 +47,10 @@ export default function Hero() {
             Start Playing
           </Link>
           <Link
-            href="/about"
+            href="/buy"
             className="w-full sm:w-auto bg-transparent border-2 border-white px-6 py-3 rounded-full font-semibold hover:bg-white hover:text-blue-600 transition duration-300 text-sm sm:text-base hover-scale"
           >
-            Explore Aero
+            Buy Now
           </Link>
           <Link
             href="/whitepaper"

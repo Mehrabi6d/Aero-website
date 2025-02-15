@@ -1,9 +1,8 @@
 "use client"
 
 import { motion } from "framer-motion"
+import { ArrowRight, Sparkles } from "lucide-react"
 import Link from "next/link"
-import { Sparkles } from "lucide-react"
-import { ArrowRight } from "lucide-react"
 
 export default function BlockchainPage() {
   const fadeUpVariants = {
@@ -66,6 +65,8 @@ export default function BlockchainPage() {
           </motion.div>
         </div>
       </div>
+
+      <div className="absolute inset-0 bg-gradient-to-t from-blue-900 via-transparent to-blue-900/80 pointer-events-none" />
     </div>
   )
 }
